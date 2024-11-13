@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+
+[deployment]
+[[deployment.targets]]
+URL = "gs://itadakimasu-docs"
