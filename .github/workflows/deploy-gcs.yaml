@@ -25,5 +25,7 @@ jobs:
           token_format: access_token
           workload_identity_provider: 'projects/236289982072/locations/global/workloadIdentityPools/gh-pool/providers/provider-github'
           service_account: 'hugo-gh-actions@itadakimasu-engulid.iam.gserviceaccount.com'
+      - name: Minify
+        run: hugo --minify
       - name: Deploy
         run: hugo deploy
