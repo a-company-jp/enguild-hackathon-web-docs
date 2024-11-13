@@ -20,7 +20,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.138.0'
+          hugo-version: '0.136.5'
           extended: true
       - name: Login to Google Cloud
         id: auth
