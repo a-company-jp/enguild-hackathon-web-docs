@@ -6,3 +6,7 @@ theme = 'ananke'
 [deployment]
 [[deployment.targets]]
 URL = "gs://itadakimasu-docs"
+[[deployment.matchers]]
+# all htmls
+pattern = "^.*\\.html$"
+cacheControl = "no-store"
