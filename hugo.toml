@@ -1,6 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://docs.i.a.shion.pro/'
 languageCode = 'ja-jp'
 title = 'いただきます - 隔たりのない日本食文化体験を'
+copyright = 'a-company-jp'
 theme = 'ananke'
 
 [deployment]
